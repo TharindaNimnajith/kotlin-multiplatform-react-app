@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="5" platform="JavaScript " allPlatforms="JS []" useProjectSettings="false" isTestModule="true" externalProjectId="kotlin-multiplatform-react-app">
+        <newMppModelJpsModuleKind>COMPILATION_AND_SOURCE_SET_HOLDER</newMppModelJpsModuleKind>
+        <externalSystemTestTasks>
+          <externalSystemTestTask>browserTest|:|js|js</externalSystemTestTask>
+        </externalSystemTestTasks>
+        <testOutputPath>$MODULE_DIR$/../../build/js/packages/kotlin-multiplatform-react-app-test/kotlin/kotlin-multiplatform-react-app-test.js</testOutputPath>
+        <compilerSettings>
+          <option name="additionalArguments" value="-ir-output-name kotlin-multiplatform-react-app_test -output $MODULE_DIR$/../../build/js/packages/kotlin-multiplatform-react-app-test/kotlin/kotlin-multiplatform-react-app-test.js" />
+        </compilerSettings>
+        <compilerArguments>
+          <flagArguments>
+            <flagArg name="metaInfo" arg="true" />
+            <flagArg name="noStdlib" arg="true" />
+            <flagArg name="sourceMap" arg="true" />
+          </flagArguments>
+          <stringArguments>
+            <stringArg name="main" arg="call" />
+            <stringArg name="moduleKind" arg="umd" />
+            <stringArg name="target" arg="v5" />
+            <stringArg name="apiVersion" arg="1.8" />
+            <stringArg name="languageVersion" arg="1.8" />
+          </stringArguments>
+          <arrayArguments>
+            <arrayArg name="pluginClasspaths" />
+            <arrayArg name="pluginOptions" />
+          </arrayArguments>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+</module>
